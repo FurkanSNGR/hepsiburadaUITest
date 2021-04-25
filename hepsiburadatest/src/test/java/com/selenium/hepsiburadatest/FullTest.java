@@ -319,7 +319,10 @@ public class FullTest{
         //delete-address
         driver.findElement(By.xpath("/html/body/div/div[4]/div/div/div/div[4]/div/div/div/div/ul/li[2]/div/div[1]/a[1]")).click();
         Thread.sleep(1000);
+        driver.findElement(By.xpath("/html/body/div/div[4]/div/div/div/div[4]/div/div/div/div/ul/li[2]/div/div[2]/div/a[2]")).click();
+        Thread.sleep(2000);
     }
+
     @Test (priority = 13)
     public void quit(){
         driver.close();
