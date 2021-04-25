@@ -13,7 +13,7 @@ Test scenario
 - Values between 10 and 4000 are entered in the price range field.
 - A random product is selected, the name of the product and the amount information is printed.
 - First, the price of the product you bought on the previous page and the price on the detail page are compared and checked.
-- The Add to Cart button is clicked.
+- The Add to BASKET button is clicked.
 - Check the number of products added and the number on the basket and go to the basket.
 - The number of pieces is updated as 2 and the amount is checked
 - The product total value and shipping amount are printed and the complete shopping button is clicked.
@@ -24,5 +24,3 @@ Test scenario
 - The basket is clicked and the basket is cleared.
 - Then go to the My Addresses field and the added addresses are deleted and the test is terminated.
 
-
-//Furkan SNGR
